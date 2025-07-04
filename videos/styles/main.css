@@ -1,0 +1,96 @@
+body {
+    background-color: #d0f0c0; /* Light green background for jungle theme */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50; /* Bright green */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.lion-image {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.intro-text {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.video-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffab00; /* Bright yellow for buttons */
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.video-button:hover {
+    background-color: #ff6f00; /* Darker yellow on hover */
+    transform: scale(1.05);
+}
+
+.addition {
+    background-color: #ff4d4d; /* Red for Addition */
+}
+
+.subtraction {
+    background-color: #0288d1; /* Blue for Subtraction */
+}
+
+.multiplication {
+    background-color: #4caf50; /* Green for Multiplication */
+}
+
+.division {
+    background-color: #ab47bc; /* Purple for Division */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Jungle Quest: Student Performance Dashboard</h1>
+        </header>
+
+        <!-- Student Information Section -->
+        <div class="student-info">
+            <img src="indian boy.jpeg" alt="Student Avatar" id="student-avatar">
+            <div class="student-details">
+                <h2>Adventurer Name: Krish</h2>
+                <h3>Current Rank: <span id="student-rank">Jungle Explorer</span></h3>
+                <img src="wooden_cartoon_sword.jpeg" alt="Rank Image" id="rank-image">
+            </div>
+        </div>
+
+        <!-- Tiger Tracker Section -->
+        <div class="tiger-tracker">
+            <img src="tiger.jpeg" id="tiger-image" alt="Tiger the Tracker">
+            <div class="tiger-dialogue">
+                <p><strong>Hello there!</strong> I’m Tiger the Tracker, your friendly guide through the jungle of quizzes! 🌟</p>
+                <p>I’m here to track and analyze your quiz performances, helping you unlock your full potential and become a quiz champion! 🚀</p>
+                <p>And guess what? I’m good friends with Simba, the wise lion who’s always up for an adventure! 🦁 Together, we’re here to support you on your learning journey.</p>
+                <p>Let’s explore, learn, and have fun in the jungle!</p>
+            </div>
+        </div>
+        
+
+        <!-- Dashboard Sections -->
+        <div class="dashboard-content">
+            <!-- Progress Section -->
+            <div class="chart-container">
+                <h2>Overall Progress</h2>
+                <canvas id="progressChart"></canvas>
+            </div>
+
+            <!-- Pie Chart Section for Correct vs. Incorrect -->
+            <div class="chart-container">
+                <h2>Quiz Results Breakdown</h2>
+                <canvas id="quizResultChart"></canvas>
+            </div>
+
+            <!-- Performance per Quiz Type (Bar Chart) -->
+            <div class="chart-container">
+                <h2>Performance per Quiz Type</h2>
+                <canvas id="performanceChart"></canvas>
+            </div>
+
+            <!-- Jungle-themed level navigation -->
+            <div class="level-navigation">
+                <h2>Adventure Levels</h2>
+                <div class="level-buttons">
+                    <a href="C:/Users/Faazil/Desktop/langchain/game/addition/index.html" class="quiz-button addition">Addition</a>
+                    <a href="C:/Users/Faazil/Desktop/langchain/game/subtraction/index2.html" class="quiz-button subtraction">Subtraction</a>
+                    <a href="C:/Users/Faazil/Desktop/langchain/game/multiplication/index3.html" class="quiz-button multiplication">Multiplication</a>
+                    <a href="C:/Users/Faazil/Desktop/langchain/game/division/index4.html" class="quiz-button division">Division</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

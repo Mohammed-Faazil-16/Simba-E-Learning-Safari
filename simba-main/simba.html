@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simba's Learning Safari</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Simba's Learning Safari!</h1>
+    </header>
+
+    <main>
+        <div class="intro-container">
+            <div class="intro-content">
+                <div class="lion-container">
+                    <img src="simba-intro.jpeg" alt="Simba" class="lion-image">
+                    <div class="lion-dialogue">
+                        <p><strong>Roar!</strong> I’m Simba, your guide on this amazing learning adventure. 🦁</p>
+                        <p>Get ready to explore and learn in the most exciting way possible. Whether you’re here to watch videos, play games, or chat with me, there's something for everyone!</p>
+                        <p>Don’t worry, I’ll be with you every step of the way, cracking jokes and helping you out. Let’s make learning an adventure!</p>
+                        
+                        <!-- Audio Player -->
+                        <div class="audio-player-container">
+                            <button class="audio-play-button" onclick="togglePlay()">▶️ Play My Introduction</button>
+                            <audio id="introAudio" src="simba-intro.mp3" preload="auto"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <a href="C:/Users/Faazil/Desktop/langchain/dashboard/dashboard.html" class="adventure-button dashboard">
+                    <img src="dashboard.jpeg" alt="Dashboard" class="button-icon">
+                    Dashboard
+                </a>
+                <a href="C:/Users/Faazil/Desktop/langchain/videos/main.html" class="adventure-button video-hub">
+                    <img src="video-hub.jpeg" alt="Video Hub" class="button-icon">
+                    Video Hub
+                </a>
+                <a href="C:/Users/Faazil/Desktop/langchain/game/map/index.html" class="adventure-button game">
+                    <img src="game.jpeg" alt="Game" class="button-icon">
+                    Game
+                </a>
+                <a href="http://localhost:8501" target="_blank" class="adventure-button chatbot">
+                    <img src="simba_chat.jpeg" alt="Chatbot" class="button-icon">
+                    Chat with Simba
+                </a>
+
+                <a href="C:/Users/Faazil/Desktop/langchain/music/music.html" class="adventure-button music">
+                    <img src="piano.jpeg" alt="Music" class="button-icon">
+                    Music
+                </a>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simba's Learning Safari. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function togglePlay() {
+            var audio = document.getElementById('introAudio');
+            var button = document.querySelector('.audio-play-button');
+            if (audio.paused) {
+                audio.play();
+                button.innerHTML = '⏸️ Pause My Introduction';
+            } else {
+                audio.pause();
+                button.innerHTML = '▶️ Play My Introduction';
+            }
+        }
+    </script>
+</body>
+</html>

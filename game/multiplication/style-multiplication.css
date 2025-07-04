@@ -1,0 +1,84 @@
+body {
+    background-color: #e8f5e9;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #c8e6c9;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #388e3c;
+    font-size: 2.5em;
+}
+
+.story {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.gecko img {
+    width: 400px;
+    height: 350px;
+}
+
+.question-box {
+    background-color: #a5d6a7;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    background-color: #66bb6a;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+    background-color: #43a047;
+}
+
+.retry-btn {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.coin-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.coin-img {
+    width: 40px;
+    margin-left: 20px;
+}

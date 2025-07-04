@@ -1,0 +1,151 @@
+/* General Body Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, kid-friendly font */
+    background: url('jungle-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 215, 0, 0.8); /* Semi-transparent yellow */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f57f17; /* Darker yellow border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Container for dashboard content */
+.dashboard-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly dark background to make text stand out */
+    border-radius: 15px;
+}
+
+/* Student Info Section */
+.student-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(76, 175, 80, 0.8); /* Light jungle green with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#student-avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff; /* White border for the avatar */
+}
+
+.student-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#rank-image {
+    width: 100px;
+    height: 100px;
+}
+.tiger-tracker {
+    background-color: rgba(255, 215, 0, 0.8); /* Light yellow background */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#tiger-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid #fff; /* White border for the tiger image */
+}
+
+.tiger-dialogue p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.tiger-dialogue p strong {
+    color: #ff5722; /* Bright color for emphasis */
+}
+
+/* Chart Container */
+.chart-container {
+    background-color: rgba(76, 175, 80, 0.8); /* Light jungle green */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Headers */
+.chart-container h2 {
+    background-color: rgba(255, 215, 0, 0.8); /* Light yellow background for headers */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #f57f17; /* Darker yellow border */
+}
+
+/* Level Navigation */
+.level-navigation {
+    background-color: rgba(255, 215, 0, 0.8); /* Light yellow */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.level-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.quiz-button {
+    background-color: #ffcc00; /* Bright yellow button */
+    color: #333;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-button:hover {
+    background-color: #ffb300; /* Darker yellow on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .student-info, .tiger-tracker, .chart-container, .level-navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #student-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    #tiger-image {
+        width: 100px;
+        height: 100px;
+    }
+}

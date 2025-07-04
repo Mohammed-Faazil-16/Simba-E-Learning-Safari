@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozart the mouse </title>
+    <link rel="stylesheet" href="music.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🎶 Mozart the Mouse's 🎶</h1>
+    </header>
+
+    <main>
+        <div class="mozart-container">
+            <img src="mouse.jpeg" alt="Mozart Mouse" class="mozart-image">
+            <div class="mozart-dialogue">
+                <p><strong>🎵 Listen to the best compositions by Mozart and Beethoven!</strong></p>
+                <p>Let the music of the greats stimulate your brain and enhance your neural connections. Enjoy!</p>
+            </div>
+        </div>
+
+        <div class="music-container">
+            <div class="music-item">
+                <img src="mozart.png" alt="Music Icon" class="music-icon">
+                <button onclick="playMusic('mozart_40.mp3')">Play Mozart - Symphony No. 40</button>
+            </div>
+            <div class="music-item">
+                <img src="mozart.png" alt="Music Icon" class="music-icon">
+                <button onclick="playMusic('mozart_eine.mp3')">Play Mozart - Eine kleine Nachtmusik</button>
+            </div>
+            <div class="music-item">
+                <img src="beethoven.png" alt="Music Icon" class="music-icon">
+                <button onclick="playMusic('beethoven_5.mp3')">Play Beethoven - Symphony No. 5</button>
+            </div>
+            <div class="music-item">
+                <img src="beethoven.png" alt="Music Icon" class="music-icon">
+                <button onclick="playMusic('fur elise.mp3')">Play Beethoven - Für Elise</button>
+            </div>
+        </div>
+
+        <audio id="musicPlayer" controls style="display:none;"></audio>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simba's Learning Safari. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function playMusic(file) {
+            var player = document.getElementById('musicPlayer');
+            player.src = file;
+            player.style.display = 'block';
+            player.play();
+        }
+    </script>
+</body>
+</html>

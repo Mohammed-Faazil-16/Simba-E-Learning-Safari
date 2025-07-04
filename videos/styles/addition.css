@@ -1,0 +1,80 @@
+body {
+    background-color: #e3f2fd; /* Light blue background with a jungle feel */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    background-image: url('jungle-bg.jpg'); /* Jungle-themed background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #ffeb3b; /* Bright yellow */
+    color: #2c6fbb; /* Jungle green text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #388e3c; /* Jungle green bottom border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    padding: 20px;
+}
+
+.video-container {
+    text-align: center;
+}
+
+iframe {
+    width: 80%;
+    height: 450px;
+    border: 5px solid #2c6fbb; /* Jungle green border */
+    border-radius: 15px;
+}
+
+.lion-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.lion-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #ffeb3b; /* Yellow border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lion-dialogue {
+    background-color: #fff8e1; /* Light yellow background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #ff5722; /* Vibrant orange */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #ff5722; /* Matching border color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ff5722; /* Hover effect */
+    color: #fff;
+}

@@ -1,0 +1,84 @@
+body {
+    background-color: #ede7f6;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #d1c4e9;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #5e35b1;
+    font-size: 2.5em;
+}
+
+.story {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.penguin img {
+    width: 400px;
+    height: 350px;
+}
+
+.question-box {
+    background-color: #b39ddb;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    background-color: #7e57c2;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+    background-color: #5c2a9b;
+}
+
+.retry-btn {
+    background-color: #512da8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.coin-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.coin-img {
+    width: 40px;
+    margin-left: 20px;
+}

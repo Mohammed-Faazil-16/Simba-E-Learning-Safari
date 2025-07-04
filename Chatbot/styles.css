@@ -1,0 +1,42 @@
+body {
+    background-color: #FFF8DC;  /* Light yellow background */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333333;
+}
+
+h1 {
+    color: #FFA500;  /* Orange-yellow title */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stButton>button {
+    background-color: #FFD700;  /* Gold color */
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stTextInput>div>input {
+    background-color: #FFEB3B; /* Bright yellow input box */
+    color: black;
+    border-radius: 10px;
+}
+
+#introduction {
+    font-size: 20px;
+    color: #FFA500;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;  /* Make the lion logo circular */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}

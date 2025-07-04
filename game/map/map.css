@@ -1,0 +1,77 @@
+body {
+    background-color: #92e2ed;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 2.5em;
+}
+
+.map {
+    position: relative;
+    display: inline-block;
+}
+
+.map img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.level-button {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.level-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.level-button.alpaca {
+    top: 30%;
+    left: 20%;
+    background-image: url('alpaca.jpeg');
+    background-size: cover;
+}
+
+.level-button.bear {
+    top: 50%;
+    left: 50%;
+    background-image: url('bear.jpeg');
+    background-size: cover;
+}
+
+.level-button.multiplication {
+    top: 70%;
+    left: 30%;
+    background-image: url('gecko.jpeg');
+    background-size: cover;
+}
+
+.level-button.division {
+    top: 40%;
+    left: 70%;
+    background-image: url('penguin.jpeg');
+    background-size: cover;
+}

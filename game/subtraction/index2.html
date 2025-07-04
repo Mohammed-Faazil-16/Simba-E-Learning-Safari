@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtraction Game</title>
+    <link rel="stylesheet" href="style-subtraction.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Help Builder Bear with Bricks!</h1>
+        <p class="story">Builder Bear is struggling with subtraction while stacking bricks. Can you help him out?</p>
+        <div class="bear">
+            <img src="bear.jpeg" alt="Brown Bear">
+        </div>
+        <div class="question-box">
+            <p id="question"></p>
+        </div>
+        <div class="options">
+            <button class="option-btn" id="option1" onclick="checkAnswer(0)"></button>
+            <button class="option-btn" id="option2" onclick="checkAnswer(1)"></button>
+            <button class="option-btn" id="option3" onclick="checkAnswer(2)"></button>
+            <button class="option-btn" id="option4" onclick="checkAnswer(3)"></button>
+        </div>
+        <p id="feedback"></p>
+        <button class="retry-btn" onclick="generateQuestion()">Retry</button>
+        <div class="coin-box">
+            <p>Coins: <span id="coinCount">0</span></p>
+            <img src="lion_coin.jpeg" alt="Coin" class="coin-img">
+        </div>
+    </div>
+
+    <script src="script-subtraction.js"></script>
+</body>
+</html>

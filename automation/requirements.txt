@@ -1,0 +1,6 @@
+selenium  # For browser automation
+pyautogui  # For GUI automation
+pynput  # For keyboard and mouse control
+opencv-python  # For image and video processing (optional)
+requests  # For making HTTP requests
+beautifulsoup4  # For web scraping (optional)
